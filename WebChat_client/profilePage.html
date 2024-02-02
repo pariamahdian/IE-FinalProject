@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel="stylesheet" href="signupStyle.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Profile</div>
+
+    <div class="content">
+      <form action="#">
+
+        <div class="user-details">
+
+          <div class="input-box">
+            <img id="image" src="" class="profile-image" >
+          </div>
+
+          <div class="input-box">
+            <span class="details">FirstName</span>
+            <input type="text" id="firstname" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">LastName</span>
+            <input type="text" id="lastname" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" id="phone" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" id="user" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details" id="bioInput">Bio</span>
+            <textarea id="bio"></textarea>
+          </div>
+
+        </div>
+      
+
+        <div class="profile-actions">
+          <button id="save-changes">Save Changes</button>
+          <button id="delete-account">Account Delete</button>
+          <button id="logout">Log Out</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+<script src="/profilePage.js"></script>
+</body>
+</html>

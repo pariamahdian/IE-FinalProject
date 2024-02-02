@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="signupStyle.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+
+    <div class="title">Registration</div>
+
+    <div class="content">
+      <form action="#">
+
+        <div class="user-details">
+
+          <div class="input-box">
+            <span class="details">FirstName</span>
+            <input type="text" placeholder="Enter your name" required id="firstnameInput">
+          </div>
+
+          <div class="input-box">
+            <span class="details">LastName</span>
+            <input type="text" placeholder="Enter your name" required id="lastnameInput">
+          </div>
+
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required id="usernameInput">
+          </div>
+
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Enter your password" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required id="phoneInput">
+          </div>
+
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" placeholder="Confirm your password" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Image</span>
+            <input type="file" name="photo" accept="image/*" id="imageInput">
+          </div>
+
+          <div class="input-box">
+            <span class="details" id="bioInput">Bio</span>
+            <textarea id="bio"></textarea>
+          </div>
+          
+        </div>
+
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+        
+      </form>
+      <p>Already have an account? <a href="login.html">Log in</a></p>
+    </div>
+  </div>
+  <script src="/signup.js"></script>
+</body>
+</html>

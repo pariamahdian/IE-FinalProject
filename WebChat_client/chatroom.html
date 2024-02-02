@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/chatroom.css">
+        <title>ChatRoom</title>
+
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="header">
+                <a href="profilePage.html">
+                    <img id="image" src="" class="profile-image">
+                </a>
+                WebChat
+            </div>
+        
+            <div class="main">
+                
+                <div class="left-side">
+                    <div class="chat-list">
+
+                        <div class="search-bar">
+                            <input type="text" id="search-input" placeholder="Search chats...">
+                        </div>
+
+                        <div class="chat-item" id="chatItems"></div>
+                         
+                    </div>
+                </div>  
+
+                <div class="right-side">
+
+                    <div class="message-section" id="messageSection"></div>
+
+                    <div class="input-section">
+                        <input type="text" class="input" id="txtMessage"/>
+                        <button class="btn" id="btnSend">Send</button>
+                    </div>
+                </div>
+
+            </div>
+             
+        </div>
+        
+
+    </body>
+    <script src="/node_modules/@microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="/chat.js"></script>
+    </html>
